@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-lex-runtime-v2`](https://www.npmjs.com/package/@aws-sdk/client-lex-runtime-v2/v/3.910.0).
+[`@aws-sdk/client-lex-runtime-v2`](https://www.npmjs.com/package/@aws-sdk/client-lex-runtime-v2/v/3.911.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-runtime-v2@3.910.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-runtime-v2@3.911.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-rnL2y4MN3I9c3Y3Y4L3xx7DxPbhhfmHl1BF4oM+qpIA4kHXwjbpM4RnfR7sO5LkC
+sha384-xBW/M1OqnTvlgNB7cVdyPM7OY4A5if37eeelYyrgnxF84tSuSbTh4m8/85bk1zrf
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-lex-runtime-v2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-runtime-v2@3.910.0/index.min.mjs"
+            "@aws-sdk/client-lex-runtime-v2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-runtime-v2@3.911.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-runtime-v2@3.910.0/index.min.mjs": "sha384-rnL2y4MN3I9c3Y3Y4L3xx7DxPbhhfmHl1BF4oM+qpIA4kHXwjbpM4RnfR7sO5LkC"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-runtime-v2@3.911.0/index.min.mjs": "sha384-xBW/M1OqnTvlgNB7cVdyPM7OY4A5if37eeelYyrgnxF84tSuSbTh4m8/85bk1zrf"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-lex-runtime-v2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-runtime-v2@3.910.0/index.min.mjs"
+                        "@aws-sdk/client-lex-runtime-v2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-runtime-v2@3.911.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-runtime-v2@3.910.0/index.min.mjs": "sha384-rnL2y4MN3I9c3Y3Y4L3xx7DxPbhhfmHl1BF4oM+qpIA4kHXwjbpM4RnfR7sO5LkC"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-runtime-v2@3.911.0/index.min.mjs": "sha384-xBW/M1OqnTvlgNB7cVdyPM7OY4A5if37eeelYyrgnxF84tSuSbTh4m8/85bk1zrf"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.910.0`)
+* Always pin to a specific version (`@3.911.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-lex-runtime-v2/blob/refs/tags/3.910.0/LICENSE
+https://github.com/cloud-sdk-builds/client-lex-runtime-v2/blob/refs/tags/3.911.0/LICENSE
 ```
 
 ---
